@@ -1,9 +1,9 @@
 
 
-if [ -z  $1]; then
+if [ -z  "$1"]; then
   echo "Eroor : no commit message provided"
   echo "usage : ./push.sh \"Your commit message\" "
-  exists 1
+  exit 1
   fi
 
   git add .
