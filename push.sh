@@ -8,4 +8,4 @@ if [ -z  $1]; then
 
   git add .
   git commit -m "$1"
-  git push orgin master
+  git push orgin main
